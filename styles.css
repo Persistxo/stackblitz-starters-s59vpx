@@ -1,0 +1,84 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #3F5461; /* Literature Blue for background */
+  color: #C1CFD6; /* Font color */
+}
+
+header {
+  background-color: #2E2E4E; /* Midnight Manuscript for header background */
+  color: #C1CFD6;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header #logo {
+  height: 50px; /* Adjust logo size as needed */
+}
+
+header h1 {
+  color: #C1CFD6; /* Font color for title */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: #C1CFD6; /* Font color for links */
+  text-decoration: none;
+}
+
+footer {
+  background-color: #2E2E4E; /* Midnight Manuscript for footer background */
+  color: #C1CFD6; /* Font color for footer */
+  text-align: center;
+  padding: 1rem;
+}
+
+button, .btn {
+  background-color: #5C2E5C; /* Regal Quill for button background */
+  color: #C1CFD6; /* Font color for button text */
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #742C36; /* Romantic Red for hover effect */
+}
+
+#newsletterForm input[type="email"] {
+  border: 1px solid #3E5641; /* Book Worm for input border */
+  padding: 0.5rem;
+}
+
+#newsletterForm button {
+  background-color: #3E5641; /* Book Worm for subscribe button */
+  color: #C1CFD6;
+}
+
+#cartModal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #3F5461; /* Literature Blue for modal background */
+  color: #C1CFD6;
+  padding: 2rem;
+  border: 1px solid #742C36; /* Romantic Red for modal border */
+}
+
+#cartModal button {
+  background-color: #5C2E5C; /* Regal Quill for modal buttons */
+  color: #C1CFD6;
+}
+
